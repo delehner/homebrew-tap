@@ -2,7 +2,7 @@ class Wisp < Formula
   desc "AI agent pipeline: PRDs to Pull Requests"
   homepage "https://github.com/delehner/wisp"
   license "MIT"
-  version "scode-v0.1.0"
+  version "scode-v0.1.0-alpha.1"
 
   on_macos do
     on_intel do
