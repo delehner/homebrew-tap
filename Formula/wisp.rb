@@ -2,29 +2,29 @@ class Wisp < Formula
   desc "AI agent pipeline: PRDs to Pull Requests"
   homepage "https://github.com/delehner/wisp"
   license "MIT"
-  version "0.1.19"
+  version "0.1.20"
 
   on_macos do
     on_intel do
       url "https://github.com/delehner/wisp/releases/download/v#{version}/wisp-x86_64-apple-darwin.tar.gz"
-      sha256 "37ad8cec60d973641485ca8bdcbb7490b8bfece8b652a3a1b214215397e78be8"
+      sha256 "fefe0ac66e1741f37f780dd0953161edc5564c302d95ae341af78e6452d5510c"
     end
 
     on_arm do
       url "https://github.com/delehner/wisp/releases/download/v#{version}/wisp-aarch64-apple-darwin.tar.gz"
-      sha256 "5254aa8880fa4237025e945215b915677fda72802dbe32a6904bb869a2f25564"
+      sha256 "1c64aef40927ac5dff4cbc34667895689d3d13e3d9ec1f0658e5a02b299905b3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/delehner/wisp/releases/download/v#{version}/wisp-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "031ec9242c8d8b51ad3c914975d2ea32d723b58ee06e8be05652bcc5588dd01e"
+      sha256 "58dfd38f2bf43fd140f71dea71a0dfbb67788091db8a36c04ac7d446ce0ee132"
     end
 
     on_arm do
       url "https://github.com/delehner/wisp/releases/download/v#{version}/wisp-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e4cfbaff4b1c6eb12ec075c3a5b6265370fdc176cf42b71053716d03c82f217a"
+      sha256 "8572e9e4c1ef0fcacfd5bbd3c4f7b076dbef4b30c64598e3907d47faf492b060"
     end
   end
 
